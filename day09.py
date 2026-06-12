@@ -1,3 +1,5 @@
+#tic-tac-toe game
+# the positions of the board
 theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
@@ -20,4 +22,4 @@ for	i	in	range(9):
     else:
             turn	=	'X'
    printBoard(theBoard)
-
+# will update later, does not check if there a is a winner to break and could be more visualy appealing, but it is a start to a tic-tac-toe game.       
