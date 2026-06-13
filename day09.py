@@ -21,5 +21,5 @@ for	i	in	range(9):
             turn	=	'O'
     else:
             turn	=	'X'
-   printBoard(theBoard)
+            printBoard(theBoard)
 # will update later, does not check if there a is a winner to break and could be more visualy appealing, but it is a start to a tic-tac-toe game.       
